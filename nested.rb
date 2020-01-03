@@ -64,7 +64,7 @@ def dennis_ritchies_language
 
 			 return programmer_hash
 		 end
-
+return programmer_hash
 
 end
 
