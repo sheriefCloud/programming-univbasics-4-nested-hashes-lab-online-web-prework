@@ -60,9 +60,9 @@ def dennis_ritchies_language
 		 def dennis_ritchies_language
 			 to_txt = programmer_hash[:dennis_ritchies][:languages]
 
-			 programmer_hash[:dennis_ritchies][:dennis_ritchies_language] = to_txt.join
+			 programmer_hash[:dennis_ritchies][:language] = to_txt.join
 
-			 programmer_hash
+			 return programmer_hash
 		 end
 
 
