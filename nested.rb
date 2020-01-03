@@ -87,6 +87,8 @@ def adding_matz
 programmer_hash[:yukihiro_matsumoto] = {}
 programmer_hash[:yukihiro_matsumoto][:knon_for] = "Object Orientation"
 programmer_hash[:yukihiro_matsumoto][:languages] = ["Smalltalk","LISP"]
+
+programmer_hash
 # new_programer = {
 # 	:yukihiro_matsumoto => {
 #   	:known_for => "Ruby",
