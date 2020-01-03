@@ -59,7 +59,7 @@ def dennis_ritchies_language
      }
 		#  dennis_ritchies_language = programmer_hash[:dennis_ritchies][:languages]
 		 # 	 dennis_ritchies_language.join
-		 
+
 end
 
 def adding_matz
@@ -93,7 +93,7 @@ programmer_hash[:yukihiro_matsumoto][:languages] = ["Smalltalk","LISP"]
 #    	:languages => ["LISP", "C"]
 # 		}
 # 	}
-# 
+#
 # 	merge
 end
 
