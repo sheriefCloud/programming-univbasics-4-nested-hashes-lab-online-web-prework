@@ -57,8 +57,9 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 dennis_ritchies_language = programmer_hash[:dennis_ritchies][:languages]
- dennis_ritchies_language.join
+		#  dennis_ritchies_language = programmer_hash[:dennis_ritchies][:languages]
+		 # 	 dennis_ritchies_language.join
+		 
 end
 
 def adding_matz
@@ -83,8 +84,17 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
-
+programmer_hash[:yukihiro_matsumoto] = {}
+programmer_hash[:yukihiro_matsumoto][:knon_for] = "Object Orientation"
+programmer_hash[:yukihiro_matsumoto][:languages] = ["Smalltalk","LISP"]
+# new_programer = {
+# 	:yukihiro_matsumoto => {
+#   	:known_for => "Ruby",
+#    	:languages => ["LISP", "C"]
+# 		}
+# 	}
+# 
+# 	merge
 end
 
 def changing_alan
